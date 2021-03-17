@@ -20,7 +20,7 @@ def abs(x):
     return x
 
 
-def Ln(x):
+def ln(x):
     if x <= 0:
         return 0
     yn = 0
@@ -33,7 +33,10 @@ def Ln(x):
 
 
 def XtimesY(x: float, y: float):
-    return exponent(y * Ln(x))
+    if x<=0:
+        return 0
+    else:
+        return exponent(y * Ln(x))
 
 
 def sqrt(x: float, y: float):
