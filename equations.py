@@ -41,7 +41,7 @@ def XtimesY(x: float, y: float):
 
 def sqrt(x: float, y: float):
     if x != 0 and y >= 0:
-        return XtimesY(x, 1 / y)
+        return XtimesY(y, 1 / x)
     else:
         return 0
 
