@@ -36,7 +36,7 @@ def XtimesY(x: float, y: float):
     if x<=0:
         return 0
     else:
-        return exponent(y * Ln(x))
+        return exponent(y * ln(x))
 
 
 def sqrt(x: float, y: float):
