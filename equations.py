@@ -20,7 +20,7 @@ def abs(x):
     return x
 
 
-def ln(x):
+def Ln(x):
     if x <= 0:
         return 0
     yn = 0
