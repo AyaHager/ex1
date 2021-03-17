@@ -21,6 +21,8 @@ def abs(x):
 
 
 def Ln(x):
+    if x <= 0:
+        return 0
     yn = 0
     yn1 = x - 1.0
     epsilon = 0.001
@@ -35,7 +37,7 @@ def XtimesY(x: float, y: float):
 
 
 def sqrt(x: float, y: float):
-    if y != 0:
+    if x != 0 and y >= 0:
         return XtimesY(x, 1 / y)
     else:
         return 0
