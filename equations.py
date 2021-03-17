@@ -52,4 +52,6 @@ def calculate(x: float):
 
 if __name__ == '__main__':
     x = float(input("insert a number please\n"))
-    print(calculate(x))
+    ans = calculate(x)
+    ans = float('%0.6f' % ans)
+    print(ans)
